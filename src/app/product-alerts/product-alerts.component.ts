@@ -7,17 +7,15 @@ import { Product } from '../products';
   styleUrls: ['./product-alerts.component.css']
 })
 
-//export class ProductAlertsComponent implements OnInit {
+export class ProductAlertsComponent implements OnInit {
 
-  //constructor() { }
-
-  //ngOnInit(): void {
-  //}
-
-//}
-
-export class ProductAlertsComponent {
+  constructor() { }
 
   @Input() product!: Product;
+  
+  ngOnInit(): void {
+  }
 
 }
+
+
