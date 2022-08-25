@@ -8,6 +8,7 @@
   [class.cher]="product.price>500"> 
     <h3>{{product.name}}</h3>
     <p *ngIf="product.description">{{product.description}}</p>
+    <button type="button" (click)="share()">Partager ce produit</button>
   </li>
 </ul>
 <!-- 
